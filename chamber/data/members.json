@@ -1,0 +1,86 @@
+[
+  {
+    "name": "J.C Teach solutuions",
+    "tagline": "Best services in town",
+    "email": "info1@gmail.com",
+    "phone": "800-555-1234",
+    "url": "https://business1.com",
+    "image": "images/business1.jpg"
+  },
+  {
+    "name": "GreenTech Solutions",
+    "tagline": "Innovating for a sustainable future.",
+    "email": "info@greentech.com",
+    "phone": "(223) 555-9876",
+    "url": "https://www.greentech.com",
+    "image": "images/bus2.jpg"
+  },
+  {
+    "name": "Adventure Tours",
+    "tagline": "Explore the world with us!",
+    "email": "tours@adventure.com",
+    "phone": "(223) 555-1234",
+    "url": "https://www.adventuretours.com",
+    "image": "images/bu3.jpg"
+  },
+  {
+    "name": "Desert Crafts",
+    "address": "12 Artisan Ln, Timbuktu, Mali",
+    "phone": "(223) 555-1004",
+    "url": "https://desertcrafts.com",
+    "image": "desert-crafts.jpg",
+    "membership": "Gold",
+    "email": "info@desertcrafts.com",
+    "tagline": "Handmade treasures from the Sahara."
+  },
+  {
+    "name": "Oasis Spa",
+    "address": "34 Relax Blvd, Timbuktu, Mali",
+    "phone": "(223) 555-1005",
+    "url": "https://oasisspa.com",
+    "image": "oasis-spa.jpg",
+    "membership": "Silver",
+    "email": "contact@oasisspa.com",
+    "tagline": "Your oasis of calm in the city."
+  },
+  {
+    "name": "Nomad IT Services",
+    "address": "56 Tech Park, Timbuktu, Mali",
+    "phone": "(223) 555-1006",
+    "url": "https://nomadit.com",
+    "image": "nomad-it.jpg",
+    "membership": "Bronze",
+    "email": "support@nomadit.com",
+    "tagline": "Technology on the move."
+  },
+  {
+    "name": "Sahara Books",
+    "address": "89 Library St, Timbuktu, Mali",
+    "phone": "(223) 555-1007",
+    "url": "https://saharabooks.com",
+    "image": "sahara-books.jpg",
+    "membership": "Gold",
+    "email": "info@saharabooks.com",
+    "tagline": "A world of knowledge in every book."
+  },
+  {
+    "name": "Blue River Cafe",
+    "address": "22 Riverside Dr, Timbuktu, Mali",
+    "phone": "(223) 555-1010",
+    "url": "https://bluerivercafe.com",
+    "image": "blue-river-cafe.jpg",
+    "membership": "Silver",
+    "email": "hello@bluerivercafe.com",
+    "tagline": "Coffee, community, comfort."
+  },
+  {
+    "name": "Mali Fitness Center",
+    "address": "77 Wellness Ave, Timbuktu, Mali",
+    "phone": "(223) 555-1011",
+    "url": "https://malifitness.com",
+    "image": "mali-fitness.jpg",
+    "membership": "Bronze",
+    "email": "info@malifitness.com",
+    "tagline": "Stronger together, every day."
+  }
+]
