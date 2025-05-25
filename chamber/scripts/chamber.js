@@ -43,7 +43,7 @@ const businesses = [
     membership: "Silver",
     email: "contact@oasisspa.com",
     tagline: "Your oasis of calm in the city.",
-    image: "images/logo 2.jpg"
+    image: "images/logo 2.jpg",
   },
   {
     name: "Nomad IT Services",

@@ -1,0 +1,124 @@
+/* Generic Layout */
+main {
+  padding: 1rem;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+}
+
+.cta-button {
+  background-color: #ffd700;
+  color: black;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.weather {
+  background: #f0f8ff;
+  border: 2px solid #b3c6e7;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  text-align: center;
+  
+}
+
+.weather h2 {
+  color: #3f0071;
+  margin-bottom: 1rem;
+}
+
+.forecast-day {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 1rem 0.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.events {
+  background: #f0f8ff;
+  border: 2px solid #b3c6e7;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  text-align: center;
+}
+.events h2 {
+  color: #3f0071;
+  margin-bottom: 1rem;
+}
+.events ul {
+  list-style: none;
+  padding: 0;
+}
+.events li {
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+}
+
+.events, .weather, .spotlights {
+  margin: 2rem 0;
+}
+
+.spotlight-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.spotlight-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.spotlight-card img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive Layout */
+@media (min-width: 768px) {
+  .spotlight-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero-text {
+    font-size: 1.5rem;
+  }
+}

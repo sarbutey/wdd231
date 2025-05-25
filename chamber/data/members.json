@@ -28,7 +28,7 @@
     "address": "12 Artisan Ln, Timbuktu, Mali",
     "phone": "(223) 555-1004",
     "url": "https://desertcrafts.com",
-    "image": "desert-crafts.jpg",
+    "image": "images/bus2.jpg",
     "membership": "Gold",
     "email": "info@desertcrafts.com",
     "tagline": "Handmade treasures from the Sahara."
@@ -38,7 +38,7 @@
     "address": "34 Relax Blvd, Timbuktu, Mali",
     "phone": "(223) 555-1005",
     "url": "https://oasisspa.com",
-    "image": "oasis-spa.jpg",
+    "image": "images/bus2.jpg",
     "membership": "Silver",
     "email": "contact@oasisspa.com",
     "tagline": "Your oasis of calm in the city."
@@ -48,7 +48,7 @@
     "address": "56 Tech Park, Timbuktu, Mali",
     "phone": "(223) 555-1006",
     "url": "https://nomadit.com",
-    "image": "nomad-it.jpg",
+    "image": "images/business1.jpg",
     "membership": "Bronze",
     "email": "support@nomadit.com",
     "tagline": "Technology on the move."
@@ -58,7 +58,7 @@
     "address": "89 Library St, Timbuktu, Mali",
     "phone": "(223) 555-1007",
     "url": "https://saharabooks.com",
-    "image": "sahara-books.jpg",
+    "image": "images/bu3.jpg",
     "membership": "Gold",
     "email": "info@saharabooks.com",
     "tagline": "A world of knowledge in every book."
@@ -68,7 +68,7 @@
     "address": "22 Riverside Dr, Timbuktu, Mali",
     "phone": "(223) 555-1010",
     "url": "https://bluerivercafe.com",
-    "image": "blue-river-cafe.jpg",
+    "image": "images/business1.jpg",
     "membership": "Silver",
     "email": "hello@bluerivercafe.com",
     "tagline": "Coffee, community, comfort."
@@ -78,7 +78,7 @@
     "address": "77 Wellness Ave, Timbuktu, Mali",
     "phone": "(223) 555-1011",
     "url": "https://malifitness.com",
-    "image": "mali-fitness.jpg",
+    "image": "images/bu3.jpg",
     "membership": "Bronze",
     "email": "info@malifitness.com",
     "tagline": "Stronger together, every day."

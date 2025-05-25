@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Welcome to the Timbuktu Chamber of Commerce - Connect, Discover, Grow" />
+  <meta name="author" content="DAVID SARBUTEY" />
+
+  <link rel="icon" href="images/icon.jpg" type="image/x-icon" />
+  <meta property="og:title" content="Timbuktu Chamber of Commerce" />
+  <meta property="og:description" content="Supporting businesses and community in Timbuktu." />
+  <meta property="og:image" content="images/social-preview.jpg" />
+  <meta property="og:url" content="https://yourdomain.com/index.html" />
+
+  <link rel="stylesheet" href="style/chamber.css" />
+  <link rel="stylesheet" href="style/home.css" />
+
+  <script src="scripts/weather.js" defer></script>
+  <script src="scripts/spotlight.js" defer></script>
+  <script src="scripts/chamber.js" defer></script>
+
+  <title>Home | Timbuktu Chamber of Commerce</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/timbuktu.jpg" alt="Timbuktu Chamber of Commerce" />
+      <span>Timbuktu <br><small>Chamber of Commerce</small></span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html">Discover</a></li>
+      </ul>
+    </nav>
+    <button id="menu-toggle">☰</button>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="images/chamber.jpg" alt="Welcome to Timbuktu Chamber" />
+      <div class="hero-text">
+        <h1>Connecting Community and Commerce</h1>
+        <a href="join.html" class="cta-button">Join the Chamber</a>
+      </div>
+    </section>
+
+    <!-- Current Events -->
+    <section class="events">
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li><strong>May 30:</strong> Business Networking Night @ 6PM</li>
+        <li><strong>June 10:</strong> Local Market Fair – Timbuktu Square</li>
+        <li><strong>June 20:</strong> Workshop: Business Strategies 101</li>
+      </ul>
+    </section>
+
+    <!-- Weather Section -->
+    <section class="weather">
+      <h2>Current Weather in Accra</h2>
+      <div id="weather-current">
+        <!-- Populated by JS -->
+      </div>
+      <div id="weather-forecast">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- Member Spotlights -->
+    <section class="spotlights">
+      <h2>Member Spotlights</h2>
+      <div id="spotlight-container" class="spotlight-grid">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contact-info">
+      <p><strong>Timbuktu Chamber of Commerce</strong><br>
+        10 Rue De La Paix, Timbuktu, Mali 9999<br>
+        info@timbuktucc.org<br>
+        (223) 555-2300</p>
+    </div>
+    <div class="social">
+      <a href="#"><img src="images/youtube.jpg" alt="YouTube"></a>
+      <a href="#"><img src="images/facebook.jpg" alt="Facebook"></a>
+      <a href="#"><img src="images/linkedin.jpg" alt="LinkedIn"></a>
+    </div>
+    <div class="dev-info">
+      <p>WDD231 Class Project<br>DAVID SARBUTEY<br>
+      Last Modification: <span id="lastModified"></span></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("lastModified").textContent = document.lastModified;
+  </script>
+</body>
+</html>
