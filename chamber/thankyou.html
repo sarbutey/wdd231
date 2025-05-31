@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thank you for joining the Timbuktu Chamber of Commerce" />
+  <meta name="author" content="DAVID SARBUTEY" />
+  <link rel="icon" href="images/icon.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="style/chamber.css" />
+  <link rel="stylesheet" href="style/join.css" />
+  <title>Thank You | Timbuktu Chamber of Commerce</title>
+  <style>
+    .thankyou-container {
+      max-width: 500px;
+      margin: 3rem auto 2rem auto;
+      background: #f0f8ff;
+      border: 2px solid #b3c6e7;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+    .thankyou-container h1 {
+      color: #3f0071;
+      margin-bottom: 1rem;
+    }
+    .thankyou-details {
+      text-align: left;
+      margin: 2rem auto 0 auto;
+      background: #fff;
+      border-radius: 8px;
+      padding: 1.2rem 1rem;
+      border: 1px solid #b3c6e7;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+      max-width: 400px;
+    }
+    .thankyou-details dt {
+      font-weight: bold;
+      color: #3f0071;
+      margin-top: 0.7rem;
+    }
+    .thankyou-details dd {
+      margin: 0 0 0.5rem 0;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/timbuktu.jpg" alt="Timbuktu Chamber of Commerce" />
+      <span>Timbuktu <br><small>Chamber of Commerce</small></span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html">Discover</a></li>
+      </ul>
+    </nav>
+    <button id="menu-toggle">☰</button>
+  </header>
+
+  <main>
+    <div class="thankyou-container">
+      <h1>Thank You for Joining!</h1>
+      <p>Your membership application has been received.<br>
+      We appreciate your interest in the Timbuktu Chamber of Commerce.</p>
+      <h2 style="color:#3f0071; margin-top:2rem;">Your Submitted Information</h2>
+      <dl class="thankyou-details">
+        <dt>First Name</dt>
+        <dd id="firstName"></dd>
+        <dt>Last Name</dt>
+        <dd id="lastName"></dd>
+        <dt>Email</dt>
+        <dd id="email"></dd>
+        <dt>Mobile Number</dt>
+        <dd id="phone"></dd>
+        <dt>Business/Organization Name</dt>
+        <dd id="organization"></dd>
+        <dt>Submission Date</dt>
+        <dd id="timestamp"></dd>
+      </dl>
+      <a href="index.html" style="display:inline-block;margin-top:2rem;color:#3f0071;font-weight:bold;">Return to Home</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="contact-info">
+      <p><strong>Timbuktu Chamber of Commerce</strong><br>
+        10 Rue De La Paix, Timbuktu, Mali 9999<br>
+        info@timbuktucc.org<br>
+        (223) 555-2300</p>
+    </div>
+    <div class="social">
+      <a href="#"><img src="images/youtube.jpg" alt="YouTube"></a>
+      <a href="#"><img src="images/facebook.jpg" alt="facebook"></a>
+      <a href="#"><img src="images/linkedin.jpg" alt="LinkedIn"></a>
+    </div>
+    <div class="dev-info">
+      <p>WDD231 Class Project<br>DAVID SARBUTEY<br>
+      Last Modification: <span id="lastModified"></span></p>
+    </div>
+  </footer>
+  <script>
+    // Auto-set last modified date
+    document.getElementById("lastModified").textContent = document.lastModified;
+
+    // Get URL parameters and display them
+    function getParam(name) {
+      const url = new URL(window.location.href);
+      return url.searchParams.get(name) || '';
+    }
+    document.getElementById('firstName').textContent = getParam('firstName');
+    document.getElementById('lastName').textContent = getParam('lastName');
+    document.getElementById('email').textContent = getParam('email');
+    document.getElementById('phone').textContent = getParam('phone');
+    document.getElementById('organization').textContent = getParam('organization');
+    document.getElementById('timestamp').textContent = getParam('timestamp') ?
+      new Date(getParam('timestamp')).toLocaleString() : '';
+  </script>
+</body>
+</html>
