@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Timbuktu Mosque",
+    "image": "images/timuku.webp",
+    "address": "Mosque Rd, Timbuktu, Mali",
+    "description": "A UNESCO World Heritage site and symbol of the city."
+  },
+  {
+    "title": "Sankore University",
+    "image": "images/sankore.webp",
+    "address": "Sankore St, Timbuktu, Mali",
+    "description": "One of the oldest universities in the world, known for its ancient manuscripts."
+  },
+  {
+    "title": "Timbuktu Market",
+    "image": "images/market_1.webp",
+    "address": "Market Square, Timbuktu, Mali",
+    "description": "A vibrant market offering local crafts, spices, and textiles."
+  },
+  {
+    "title": "Ahmed Baba Institute",
+    "image": "images/ahmed-Baba.webp",
+    "address": "Library Ave, Timbuktu, Mali",
+    "description": "A center preserving thousands of ancient manuscripts."
+  },
+  {
+    "title": "Desert Gate",
+    "image": "images/desert-gate.webp",
+    "address": "Desert Rd, Timbuktu, Mali",
+    "description": "The historic entrance to the Sahara trade routes."
+  },
+  {
+    "title": "Festival au Désert",
+    "image": "images/festival-Au-Desert.webp",
+    "address": "Festival Grounds, Timbuktu, Mali",
+    "description": "An annual music festival celebrating Tuareg culture."
+  },
+  {
+    "title": "Timbuktu Museum",
+    "image": "images/mesume.webp",
+    "address": "Museum St, Timbuktu, Mali",
+    "description": "Showcasing the rich history and culture of Timbuktu."
+  },
+  {
+    "title": "Bouctou Oasis",
+    "image": "images/oasis.webp",
+    "address": "Oasis Rd, Timbuktu, Mali",
+    "description": "A lush oasis on the edge of the Sahara, perfect for relaxation."
+  }
+]

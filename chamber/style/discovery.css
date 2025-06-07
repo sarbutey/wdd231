@@ -1,0 +1,134 @@
+.discover-main {
+  display: grid;
+  grid-template-areas:
+    "sidebar"
+    "gallery";
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background: #f0f8ff;
+  border: 2px solid #b3c6e7;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #3f0071;
+  text-align: center;
+  min-height: 48px; 
+}
+
+.discover-gallery {
+  grid-area: gallery;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.discover-card {
+  background: #fff;
+  border: 2px solid #b3c6e7;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 1.5rem 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discover-card h2 {
+  color: #3f0071;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.discover-card figure {
+  margin: 0 0 0.7rem 0;
+}
+
+.discover-card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.discover-card address {
+  font-style: normal;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.discover-card button {
+  margin-top: 1rem;
+  background: #3f0071;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.discover-card button:hover {
+  background: #ffd700;
+  color: #3f0071;
+}
+
+/* Image hover effect for non-mobile */
+@media (hover: hover) and (pointer: fine) {
+  .discover-card img:hover {
+    transform: scale(1.07) rotate(-2deg);
+    box-shadow: 0 8px 24px rgba(63,0,113,0.18);
+    filter: brightness(1.1) contrast(1.1);
+  }
+}
+
+/* Medium screens */
+@media (min-width: 641px) {
+  .discover-main {
+    grid-template-areas:
+      "sidebar sidebar"
+      "gallery gallery";
+    grid-template-columns: 1fr 1fr;
+  }
+  .discover-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1025px) {
+  .discover-main {
+    grid-template-areas:
+      "sidebar gallery";
+    grid-template-columns: 320px 1fr;
+    align-items: flex-start;
+  }
+  .sidebar {
+    position: sticky;
+    top: 2rem;
+    align-self: flex-start;
+  }
+  .discover-gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.discover-gallery-section {
+  width: 100%;
+}
+.discover-gallery-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #3f0071;
+}
