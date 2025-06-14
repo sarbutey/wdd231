@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Use Vertical Space",
+    "description": "Install shelves or hanging pots to maximize vertical space.",
+    "category": "Layout",
+    "image": "images/vertical.webp",
+    "details": "Vertical gardening helps you make the most of walls and fences by using stacked planters or hanging pots. It's perfect for balconies and patios."
+  },
+  {
+    "id": 2,
+    "title": "Choose the Right Containers",
+    "description": "Use pots with proper drainage for healthy roots.",
+    "category": "Containers",
+    "image": "images/container.webp",
+    "details": "Plastic, ceramic, or terracotta containers work well, but ensure they have drainage holes. Self-watering containers can reduce maintenance."
+  },
+  {
+    "id": 3,
+    "title": "Start with Herbs",
+    "description": "Basil, mint, and parsley are easy to grow.",
+    "category": "Beginner Tips",
+    "image": "images/herbs.webp",
+    "details": "Herbs grow quickly, don’t require much space, and can be harvested regularly. Perfect for windowsills and balcony edges."
+  },
+  {
+    "id": 4,
+    "title": "Use Compost",
+    "description": "Recycle food waste into plant nutrition.",
+    "category": "Soil",
+    "image": "images/compost.webp",
+    "details": "Composting is eco-friendly and enriches soil. Use kitchen scraps like peels, coffee grounds, and eggshells to boost plant growth."
+  },
+  {
+    "id": 5,
+    "title": "Water Smartly",
+    "description": "Avoid overwatering and water in the early morning.",
+    "category": "Watering",
+    "image": "images/water.webp",
+    "details": "Morning watering helps reduce evaporation. Check soil moisture before watering again to avoid root rot."
+  },
+  {
+    "id": 6,
+    "title": "Grow in Raised Beds",
+    "description": "Raised beds improve drainage and soil quality.",
+    "category": "Layout",
+    "image": "images/grow.webp",
+    "details": "Raised beds warm up faster in spring and allow you to control soil composition, making them ideal for urban gardens."
+  },
+  {
+    "id": 7,
+    "title": "Use Mulch",
+    "description": "Mulch retains moisture and suppresses weeds.",
+    "category": "Soil",
+    "image": "images/mulch.webp",
+    "details": "Organic mulch like straw or bark chips keeps soil cool, reduces watering needs, and prevents weed growth."
+  },
+  {
+    "id": 8,
+    "title": "Maximize Sunlight",
+    "description": "Place plants where they get at least 6 hours of sun.",
+    "category": "Light",
+    "image": "images/sunlight.webp",
+    "details": "Observe your space throughout the day and move containers as needed to ensure your plants get enough sunlight."
+  },
+  {
+    "id": 9,
+    "title": "Grow Edible Flowers",
+    "description": "Nasturtiums and pansies add color and are edible.",
+    "category": "Plants",
+    "image": "images/edible.webp",
+    "details": "Edible flowers not only beautify your garden but can also be used in salads and as garnishes."
+  },
+  {
+    "id": 10,
+    "title": "Practice Companion Planting",
+    "description": "Pair plants that benefit each other.",
+    "category": "Plants",
+    "image": "images/companion.webp",
+    "details": "Some plants, like basil and tomatoes, grow better together and can help deter pests naturally."
+  },
+  {
+    "id": 11,
+    "title": "Rotate Crops",
+    "description": "Change plant locations each season.",
+    "category": "Soil",
+    "image": "images/rotation.webp",
+    "details": "Rotating crops prevents soil depletion and reduces the risk of disease and pests."
+  },
+  {
+    "id": 12,
+    "title": "Collect Rainwater",
+    "description": "Use rain barrels to water your garden.",
+    "category": "Watering",
+    "image": "images/rain.webp",
+    "details": "Collecting rainwater is eco-friendly and can reduce your water bill. Use it to water your plants during dry spells."
+  },
+  {
+    "id": 13,
+    "title": "Fertilize Naturally",
+    "description": "Use compost tea or fish emulsion.",
+    "category": "Soil",
+    "image": "images/compost.webp",
+    "details": "Natural fertilizers provide nutrients without chemicals. Apply regularly for healthy, productive plants."
+  },
+  {
+    "id": 14,
+    "title": "Grow Microgreens",
+    "description": "Microgreens are fast-growing and nutrient-rich.",
+    "category": "Beginner Tips",
+    "image": "images/microgreen.webp",
+    "details": "Microgreens can be grown indoors year-round and harvested in as little as two weeks."
+  },
+  {
+    "id": 15,
+    "title": "Pest Control Naturally",
+    "description": "Use neem oil or introduce ladybugs.",
+    "category": "Pests",
+    "image": "images/NEEM.webp",
+    "details": "Avoid harsh chemicals by using natural pest control methods like neem oil or beneficial insects."
+  }
+]

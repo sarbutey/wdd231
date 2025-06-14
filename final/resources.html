@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Gardening Tips | Resources</title>
+  <meta name="description" content="Saved favorite gardening tips stored using localStorage.">
+  <meta name="author" content="DAVID SARBUTEY">
+  <meta name="keywords" content="urban gardening, gardening resources, city gardening, sustainable gardening, small space gardening">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta property="og:title" content="Urban Gardening Tips - Resources">
+  <meta property="og:description" content="View your saved urban gardening tips and resources.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/og-preview.jpg">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.jpg" alt="Urban Gardening Tips Logo" class="header-logo" width="50" height="50" loading="lazy">
+      Urban Gardening Tips
+    </div>
+    <nav>
+      <button id="menu-toggle" aria-label="Menu">&#9776;</button>
+      <ul id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="resources.html" aria-current="page">Resources</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="tips-section">
+      <h1 class="page-title">Saved Tips</h1>
+      <p class="resources-desc">Below are the gardening tips you have saved. Remove any you no longer need!</p>
+      <div id="favorites-container" class="tips-container"></div>
+    </section>
+  </main>
+
+    <footer>
+        <p>&copy; 2025 Urban Gardening Tips. All rights reserved.</p>
+    </footer>
+
+  <script type="module" src="scripts/main.js"></script>
+  <script type="module" src="scripts/resources.js"></script>
+</body>
+</html>

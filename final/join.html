@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join | Urban Gardening Tips</title>
+  <meta name="description" content="Join the Urban Gardening Tips community and receive monthly newsletters and gardening updates.">
+  <meta name="author" content="DAVID SARBUTEY">
+  <meta name="keywords" content="urban gardening, join community, gardening tips, sustainable gardening, city gardening">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta property="og:title" content="Join Urban Gardening Tips">
+  <meta property="og:description" content="Become a member and get the latest urban gardening news and tips.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/og-preview.jpg">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.jpg" alt="Urban Gardening Tips Logo" class="header-logo" width="50" height="50" loading="lazy">
+      Urban Gardening Tips
+    </div>
+    <nav>
+      <button id="menu-toggle" aria-label="Menu">&#9776;</button>
+      <ul id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="join.html" aria-current="page">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="join-section">
+      <h1 class="page-title">Join Our Gardening Community</h1>
+      <p class="join-desc">
+        Become a member to receive monthly newsletters, exclusive tips, and connect with fellow urban gardeners!
+      </p>
+      <form action="thanks.html" method="get" id="joinForm" class="join-form">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required autocomplete="name">
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+
+        <label for="interest">Your Gardening Interest:</label>
+        <select id="interest" name="interest" required>
+          <option value="">--Select--</option>
+          <option value="container">Container Gardening</option>
+          <option value="vertical">Vertical Gardening</option>
+          <option value="herbs">Herbs & Vegetables</option>
+          <option value="composting">Composting</option>
+          <option value="soil">Soil Improvement</option>
+          <option value="watering">Watering Techniques</option>
+          <option value="raisedbeds">Raised Beds</option>
+          <option value="mulching">Mulching</option>
+          <option value="sunlight">Maximizing Sunlight</option>
+          <option value="edibleflowers">Edible Flowers</option>
+          <option value="companion">Companion Planting</option>
+          <option value="rotation">Crop Rotation</option>
+          <option value="rainwater">Rainwater Collection</option>
+          <option value="fertilizing">Natural Fertilizing</option>
+          <option value="microgreens">Microgreens</option>
+          <option value="pestcontrol">Pest Control</option>
+        </select>
+
+        <label class="checkbox-label">
+          <input type="checkbox" name="subscribe" value="yes" checked>
+          Subscribe to our monthly newsletter
+        </label>
+
+        <button type="submit">Join Now</button>
+      </form>
+    </section>
+  </main>
+
+    <footer>
+        <p>&copy; 2025 Urban Gardening Tips. All rights reserved.</p>
+    </footer>
+
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

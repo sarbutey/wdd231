@@ -1,0 +1,372 @@
+:root {
+  --green: #4caf50;
+  --dark: #2c3e50;
+  --light: #ecf0f1;
+  --beige: #f9f5e3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--beige);
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--green);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header-logo {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  background: var(--green);
+  position: absolute;
+  top: 60px;
+  right: 1rem;
+  min-width: 150px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+nav ul.open {
+  display: flex;
+}
+
+nav ul li {
+  margin: 0.5rem 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+nav ul li a[aria-current="page"] {
+  background: var(--dark);
+  border-radius: 3px;
+}
+
+#menu-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.hero {
+  background-image: url('../images/now.webp');
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--dark);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.2s;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+  background-color: var(--green);
+  color: var(--dark);
+}
+
+/* Tips Section Grid */
+.tips-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tips-container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  padding: 2rem 1rem;
+}
+
+.tip-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+
+.tip-card img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.tip-card h3 {
+  margin: 0.5rem 0 0.25rem 0;
+  color: var(--green);
+  text-align: center;
+}
+
+.tip-card p {
+  margin: 0.25rem 0;
+  text-align: center;
+}
+
+.tip-card button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  background: var(--green);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.tip-card button:hover,
+.tip-card button:focus {
+  background: var(--dark);
+}
+
+/* Responsive grid for tips */
+@media (min-width: 600px) {
+  .tips-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) {
+  .tips-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Modal styles */
+.modal.hidden {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: flex; justify-content: center; align-items: center;
+  z-index: 2000;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+}
+
+.close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--dark);
+  cursor: pointer;
+}
+
+/* Responsive Navigation */
+@media (min-width: 700px) {
+  nav {
+    position: static;
+  }
+  nav ul {
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    background: none;
+    min-width: 0;
+    border-radius: 0;
+    gap: 1rem;
+  }
+  #menu-toggle {
+    display: none;
+  }
+  nav ul li {
+    margin: 0;
+  }
+}
+
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+form input,
+form select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form .checkbox-label {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+
+form button[type="submit"] {
+  background: var(--green, #4caf50);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.2s;
+  margin-top: 1rem;
+}
+
+form button[type="submit"]:hover,
+form button[type="submit"]:focus {
+  background: var(--dark, #2c3e50);
+}
+
+/* Thank You Section Styles */
+.thanks-section {
+  max-width: 500px;
+  margin: 3rem auto 2rem auto;
+  background: #fff;
+  padding: 2rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.thanks-section h1 {
+  color: var(--green, #4caf50);
+  margin-bottom: 1rem;
+}
+
+.thanks-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0 0;
+  text-align: left;
+}
+
+.thanks-section li {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.thanks-section strong {
+  color: var(--dark, #2c3e50);
+}
+
+.features {
+  background: #fff;
+  padding: 2rem 1rem;
+  margin: 2rem auto;
+  max-width: 1100px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+.features h2 {
+  color: var(--green, #4caf50);
+  margin-bottom: 1.5rem;
+}
+
+.features-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.feature-card {
+  background: var(--beige, #f9f5e3);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-card img {
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+
+.feature-card h3 {
+  margin-bottom: 0.5rem;
+  color: var(--dark, #2c3e50);
+}
+
+@media (min-width: 700px) {
+  .features-grid {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .feature-card {
+    width: 300px;
+  }
+}
